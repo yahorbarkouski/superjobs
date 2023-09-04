@@ -1,0 +1,8 @@
+name: "" # company name, e.g. "Superside"
+url: "" # company url, e.g. "https://www.superside.com/"
+careers_page: "" # careers page, e.g. "https://www.superside.com/careers"
+listings:
+  - url: "" # listing url, e.g. "https://careers.superside.com/senior-backend-engineer-kotlin"
+    guidance:
+      contains: # list of strings to search for in the listing, to make sure relevant listing processor is used
+        - "" # e.g. "kotlin", "spring", "senior backend engineer"
