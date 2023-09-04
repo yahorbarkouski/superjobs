@@ -1,0 +1,9 @@
+name: Scentbird
+url: https://scentbird.com/
+careers_page: https://scentbird.breezy.hr
+listings:
+  - url: https://scentbird.breezy.hr/p/fb811c2babcf-director-of-business-development
+    guidance:
+      contains:
+        - "scentbird"
+        - "business development"
