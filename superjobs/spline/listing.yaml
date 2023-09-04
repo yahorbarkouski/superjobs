@@ -1,0 +1,9 @@
+name: "Spline"
+url: "https://spline.design/"
+careers_page: "https://www.ycombinator.com/companies/spline/jobs"
+listings:
+  - url: "https://www.ycombinator.com/companies/spline/jobs/vS70rg1DB-senior-graphics-engineer-3d-computer-graphics"
+    guidance:
+      contains:
+        - "nodejs"
+        - "reactjs"
