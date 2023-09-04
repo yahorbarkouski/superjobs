@@ -1,0 +1,8 @@
+name: Netflix
+url: netflix.com
+careers_page: https://netflix.com/careers
+listings:
+  - url: https://jobs.netflix.com/jobs/292527411
+    guidance:
+      contains:
+        - "python"
