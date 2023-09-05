@@ -1,0 +1,10 @@
+name: "Github"
+url: "https://www.github.com/"
+careers_page: "https://www.github.com/careers"
+listings:
+  - url: https://boards.greenhouse.io/github/jobs/5142428
+    guidance:
+      contains:
+        - "github"
+        - "next"
+        - "llms"
