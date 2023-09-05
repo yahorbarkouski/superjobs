@@ -1,0 +1,9 @@
+name: "Workato"
+url: https://workato.com
+careers_page: "https://www.superside.com/careers"
+listings:
+  - url: https://boards.greenhouse.io/workato/jobs/6829061002
+    guidance:
+      contains:
+        - "ruby"
+        - "golang"
