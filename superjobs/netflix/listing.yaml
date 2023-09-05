@@ -1,0 +1,8 @@
+name: Netflix
+url: https://www.netflix.com/
+careers_page: https://jobs.netflix.com/
+listings:
+  - url: https://jobs.netflix.com/jobs/277878697
+    guidance:
+      contains:
+        - "Google Data Studio"
