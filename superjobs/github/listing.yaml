@@ -1,8 +1,8 @@
 name: "Github"
-url: "https://www.github.com/"
-careers_page: "https://www.github.com/careers"
+url: "https://www.git123hub.com/"
+careers_page: "https://www.g123ithub.com/careers"
 listings:
-  - url: https://boards.greenhouse.io/github/jobs/5142428
+  - url: https://boards.greenhouse.io/githu123b/jobs/5142428
     guidance:
       contains:
         - "github"
