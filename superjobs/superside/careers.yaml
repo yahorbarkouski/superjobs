@@ -1,0 +1,12 @@
+# important: only one careers object per file.
+careers:
+  # required, concrete job listing url
+  - url: https://www.google.com/careers/software-engineer
+    # optional (recommended), list of keywords to search for in the listing,
+    # to make sure relevant listing processor is used
+    guidance:
+      - "software engineer"
+      - "kotlin"
+      - "java"
+  - url: https://www.google.com/careers/senior-software-engineer
+  - url: https://www.google.com/careers/design-lead
