@@ -3,7 +3,7 @@ careers:
   # required, concrete job listing url
   - url: https://www.google.com/careers/software-engineer
     # optional (recommended), list of keywords to search for in the listing,
-    # to make sure relevant listing processor is used
+    # to make sure relevant listing processor used
     guidance:
       - "software engineer"
       - "kotlin"
