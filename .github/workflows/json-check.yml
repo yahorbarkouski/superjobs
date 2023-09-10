@@ -1,0 +1,15 @@
+name: json schema check
+
+on:
+  pull_request:
+    branches: [ '*' ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run json-check
+        run: python3 schema-check.py
