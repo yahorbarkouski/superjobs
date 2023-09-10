@@ -5,7 +5,6 @@ careers:
     # optional (recommended), list of keywords to search for in the listing,
     # to make sure relevant listing processor used
     guidance:
-      - "Creative"
       - "Project"
       - "Manager"
   - url: https://careers.superside.com/creatives-presentation-design
