@@ -1,4 +1,4 @@
-name: json schema check
+name: schema check
 
 on:
   pull_request:
@@ -11,5 +11,5 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Run json-check
+      - name: Run schema-check
         run: python3 schema-check.py
