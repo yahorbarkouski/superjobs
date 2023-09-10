@@ -3,7 +3,7 @@ careers:
   # required, concrete job listing url
   - url: https://careers.superside.com/creative-project-manager
     # optional (recommended), list of keywords to search for in the listing,
-    # to make sure relevant listing proc1essor used
+    # to make sure relevant listing processor used
     guidance:
       - "Project"
       - "Manager"
