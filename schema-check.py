@@ -18,7 +18,7 @@ def check_json_file(json_path):
         print(f'JSON file {json_path} is not valid. Please fix the syntax.')
         has_errors = True
 
-check_directory('../../superjobs')
+check_directory('superjobs')
 
 if has_errors:
     exit(1)
