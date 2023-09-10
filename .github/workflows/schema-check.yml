@@ -1,4 +1,4 @@
-name: schema check
+name: schema
 
 on:
   pull_request:
