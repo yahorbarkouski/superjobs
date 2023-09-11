@@ -1,12 +1,12 @@
 {
   "location" : null,
-  "attendance" : [ "Remote" ],
+  "attendance" : null,
   "type" : null,
-  "experience" : [ "4 years of relevant experience" ],
+  "experience" : null,
   "salary" : null,
-  "tags" : [ "Product Design" ],
-  "skills" : [ "UX/UI design", "Prototyping", "User interviews", "Usability testing", "Collaboration" ],
-  "overview" : "Superside is looking for a Senior Product Designer to help us make our briefing experience completely hassle-free.",
-  "description" : "Superside is looking for a driven Senior Product Designer to help us make our briefing experience completely hassle-free. As a part of our Product Design team, you will be responsible for designing Superside's collaboration and project management platform—Superspace—that helps our customers \"unbottleneck\" their creative needs. You will work hand-in-hand with the Product Manager to understand the problem and user needs, and design solutions based on qualitative and quantitative analytics. You will also conduct user interviews, usability tests, and collaborate with the engineering team to design feasible solutions. The goal is to create an easy-to-use platform and a seamless and delightful experience within Superspace.",
-  "requirements" : [ "4 years of relevant experience designing exceptional enterprise-class applications", "Knowledge of the end-to-end design process", "Experience identifying and prioritizing opportunities, forming hypotheses, creating experiments, and collaboratively creating success metrics", "Great communication skills and familiarity with technical language", "Knowledge of best practices for accessibility and experience designing for different devices and screen sizes", "Organization skills needed to create and maintain easy-to-use documentation", "Familiarity working in a cross-disciplinary environment", "Business-oriented, data-driven, detail-oriented and autonomous mindset", "Ability to communicate ideas, concepts, and insights clearly" ]
+  "tags" : null,
+  "skills" : null,
+  "overview" : "Superside is looking for a driven Senior Product Designer to help us make our briefing experience completely hassle-free.",
+  "description" : "Superside is looking for a driven Senior Product Designer to help us make our briefing experience completely hassle-free. Becoming a part of our Product Design team in the Tech, Product &amp; Design department, you’ll play a key role in designing Superside's collaboration and project management platform—Superspace—that helps our customers \"unbottleneck\" their creative needs. You’ll get to design UI components according to the best practices for interaction and experience. This role will enable our team to prototype, test and validate our product hypothesis faster. Reporting to the Design Director, you’ll be responsible for conceptualizing and building an easy-to-use platform, helping us create a seamless and delightful experience within Superspace.",
+  "requirements" : [ "4 years of relevant experience designing exceptional enterprise-class applications", "Demonstrable experience building digital products from conception to delivery", "Knowledge of the end-to-end design process (discovery and delivery)", "Experience identifying and prioritizing opportunities, forming hypotheses, creating experiments, and collaboratively creating success metrics", "Great communication skills and familiarity with technical language to facilitate collaboration with other teams", "Knowledge of best practices for accessibility and experience designing for different devices and screen sizes", "Organization skills needed to create and maintain easy-to-use documentation", "Familiarity working in a cross-disciplinary environment, where experimentation and testing are valued", "Business-oriented, data-driven, detail-oriented and autonomous mindset", "Ability to communicate your ideas, concepts and insights clearly" ]
 }
