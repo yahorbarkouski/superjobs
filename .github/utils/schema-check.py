@@ -30,7 +30,7 @@ def check_yaml_file(yaml_path):
         print(f'YAML file {yaml_path} is not valid. Please fix the syntax:\n {e}')
         has_errors = True
 
-check_directory('superjobs')
+check_directory('..')
 
 if has_errors:
     exit(1)
