@@ -28,6 +28,6 @@ The unambiguous hiring goals of the company – to find the best-fit employee, a
 4. Innovative job search systems **should answer the "How"** and **take the "What" for granted** to cover as many job-seeker preferences as possible.
 
 ## Approach comparison
-![img_4.png](img_4.png)
+![img_5.png](img_5.png)
 ### Non-goals
 -
