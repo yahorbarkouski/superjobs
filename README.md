@@ -31,7 +31,7 @@ Similarly, job-seekers struggle with _rigid search_ and filter options. Each pla
 categories and keywords, leaving little room for a customised job search experience. In essence, these issues make job
 searching a daunting task rather than a smooth process.
 
-![standard-job-platform](standard-job-platform.png)
+![standard-job-platform](img_3.png)
 
 The job search industry is also prohibitively difficult to enter from a startup solutions perspective because **it's
 rooted in the content problem**. We're sure there are a myriad of alternative approaches to filtering, sorting,
