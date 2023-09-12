@@ -1,7 +1,15 @@
 # Gandi
 > Stateful Reverse Proxy for decentralized IT jobs
 
-Gandi is shifting the closed-platform job search paradigm to a distributed, transparent and company-driven model, developing capabilities to create unique job search engines that **share the same source of content** but provide **different capabilities** to retrieve and process it
+Gandi shifts the closed-platform job search paradigm to a distributed, transparent and company-driven model, developing capabilities to create unique job search engines that **share the same source of content** but provide **different capabilities** to retrieve and process it.
+
+To make it simple, Gandi can be described as company job listings storage, that follow the following main principles:
+- **Decentralized** – each company is responsible for its own job listings, that have been published on the company's website and pulled by Gandi;
+- **Instant** – a single link to a company's job listing ensures seamless sync with Gandi repository, negating the need for manual content duplication;
+- **Opensource** – all job listings are stored publicly and can be used by anyone for any purpose;
+- **Consistent** – all job listings are synced with the company's website on a daily basis;
+
+
 ## Why?
 Traditional job search tools tend to position themselves as intermediaries, but their approach often fragments the job market. Different job platforms publish unique sets of job listings, resulting in scattered and sometimes outdated information. This fragmented reality can mislead job-seekers and burden companies that struggle to keep listings up to date across multiple platforms.
 
@@ -18,7 +26,7 @@ The unambiguous hiring goals of the company – to find the best-fit employee, a
 1. Job postings should be **as public as possible** – so that as many job-seekers as possible can find them;
 2. Job platform business model **shouldn't cut off needy companies that cannot afford it**;
 3. The more **personalised job search** and filtering tools that exist, the more candidates will be able to find the right vacancies;
-4. Innovative job search systems **should answer the "How"** and take the "What" **for granted** to cover as many job-seeker preferences as possible.
+4. Innovative job search systems **should answer the "How"** and **take the "What" for granted** to cover as many job-seeker preferences as possible.
 
 ## Approach comparison
 
