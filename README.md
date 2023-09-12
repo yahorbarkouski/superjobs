@@ -58,21 +58,20 @@ To make sure we're on the same page, let's see how it should work in practice:
 Gandi is deeply anchored around three main layers: pull-based careers retrieval engine, public careers storage, and custom data consumer implementations – specific search platforms.
 
 ### Retrieval engine
-Gandi retrieves company job listings directly from the source. We ensure that the repository's data is directly fetched from the companies’ websites, reducing the chance for outdated, misleading or fragmented job offers. This approach also allows us to avoid the need for manual content duplication, as the company's website is the source of truth.
-
-Retrieval engine also ensures to be as up-to-date as possible, by syncing with the company's website on a daily basis.
+Gandi retrieves company job listings directly from the source. We ensure that the repository's data is directly fetched from the companies’ websites, reducing the chance for outdated, misleading or fragmented job offers. This approach also allows us to avoid the need for manual content duplication, as the __company's career page is the only source of truth__.
 
 ### Public Storage
-All gathered job listings are stored publicly and can be accessed by everyone, at all times, right in this repository. By ensuring company job information is as public as possible, we feel this levels the playing field for all job-seekers, and enables maximum reach.
+All gathered job listings are stored publicly and __can be accessed by everyone, at all times__, right in this repository. By ensuring company job information is as public as possible, we feel this levels the playing field for all job-seekers, and enables maximum reach.
 
 
 ### Data Consumers
 That approach won't work without consumers – systems that are able to pull the data from Gandi, implement a custom search engine based on that and fit the target audience – job-seeker needs.
 
-It's crucial to understand that Gandi is not a search engine itself, though it's useless in a vacuum. We seek to provide a data source for as many job search platforms as possible, and we're open to any company that wants to join us.
+It's crucial to understand that __Gandi is not a search engine itself__, though it's useless in a vacuum. We seek to provide a data source for as many job search platforms as possible, and we're open to any company that wants to join us.
 
 ## How does it work?
 The following visualisation should give you a better understanding:
+
 ![img_7.png](img_7.png)
 But there is no better way than to see it in action. Let's take a look at the example of how Gandi works with a company. 
 
