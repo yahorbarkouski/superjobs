@@ -2,11 +2,11 @@
 
 > Stateful Reverse Proxy for decentralized IT jobs
 
-Gandi shifts the closed-platform job search paradigm to a distributed, transparent and company-driven model, developing
+Gandi shifts the closed-platform job search paradigm to a distributed, transparent and job-seeker driven model, developing
 capabilities to create unique job search engines that **share the same source of content** but provide **different
 features** to retrieve and process it.
 
-To make it simple, Gandi can be described as company job listings storage, that follow the following main principles:
+To put it simply, Gandi can be described as a company's job listings repository, which follows the following main principles:
 
 - **Decentralized** – each company is responsible for its own job listings, that have been published on the company's
   website and pulled by Gandi;
@@ -22,7 +22,7 @@ market. Different job platforms publish unique sets of job listings, resulting i
 information. This fragmented reality can mislead job-seekers and burden companies that struggle to keep listings up to
 date across multiple platforms.
 
-Job search platforms operate more like a _black box_ than a practical tool. Companies face _competition_, huge costs for
+Job search platforms operate more like a _black box_ than a practical tool. Companies face competition, huge costs for
 posting and advertising, and restrictions on how much information they can communicate about their vacancy.
 
 Similarly, job-seekers struggle with _rigid search_ and filter options. Each platform restricts users to its pre-defined
@@ -48,32 +48,33 @@ job, pushed us to the alternative solution space:
 4. Innovative job search systems **should answer the "How"** and **take the "What" for granted** to cover as many
    job-seeker preferences as possible.
 
-## Gandi's approach
+That's exactly what Gandi is trying to achieve.
+## Approach
 
-To make sure we're on the same page, let's try to deep dive into the Gandi's approach:
+To make sure we're on the same page, let's see how it should work in practice:
 
 ![img_5.png](img_5.png)
 
-| Comparison point        | Traditional approach           | Gandi's approach                                                                              |
-|-------------------------|--------------------------------|-----------------------------------------------------------------------------------------------|
-| **Source of truth**     | The job search platform itself | Company careers page                                                                          |
-| **Data ownership**      | Job search platform            | Company                                                                                       |
-| **Data format**         | Platform-specific              | Company-specific                                                                              |
-| **Data filters**        | Platform-specific              | Consumer-specific                                                                             |
-| **Publication cost**    | High                           | Free                                                                                          |
-| **Publication process** | Manual                         | Automatic*                                                                                    |
-| **Focus**               | What? (What careers?)          | How? (What's the most handy way to find it?)                                                  |
+Gandi is deeply anchored around three main layers: pull-based careers retrieval engine, public careers storage, and custom data consumer implementations – specific search platforms.
+
+### Retrieval engine
+Gandi retrieves company job listings directly from the source. We ensure that the repository's data is directly fetched from the companies’ websites, reducing the chance for outdated, misleading or fragmented job offers. This approach also allows us to avoid the need for manual content duplication, as the company's website is the source of truth.
+
+Retrieval engine also ensures to be as up-to-date as possible, by syncing with the company's website on a daily basis.
+
+### Public Storage
+All gathered job listings are stored publicly and can be accessed by everyone, at all times, right in this repository. By ensuring company job information is as public as possible, we feel this levels the playing field for all job-seekers, and enables maximum reach.
+
+
+### Data Consumers
+That approach won't work without consumers – systems that are able to pull the data from Gandi, implement a custom search engine based on that and fit the target audience – job-seeker needs.
+
+It's crucial to understand that Gandi is not a search engine itself, though it's useless in a vacuum. We seek to provide a data source for as many job search platforms as possible, and we're open to any company that wants to join us.
 
 ## How does it work?
-
-Open-source at heart, we openly welcome contributions to our project. You can aid our cause by:
-
-- Reporting bugs or suggesting enhancements.
-- Contributing to our codebase.
-- Spreading awareness about our initiative.
-- Sharing your user experience for improvement.
-
-Please refer to our contribution guide on how to get started.
+The following visualisation should give you a better understanding:
+![img_7.png](img_7.png)
+But there is no better way than to see it in action. Let's take a look at the example of how Gandi works with a company. 
 
 ## Non-goals
 
