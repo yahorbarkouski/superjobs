@@ -54,15 +54,15 @@ To make sure we're on the same page, let's try to deep dive into the Gandi's app
 
 ![img_5.png](img_5.png)
 
-| Comparison point        | Traditional approach           | Gandi's approach                             |
-|-------------------------|--------------------------------|----------------------------------------------|
-| **Source of truth**     | The job search platform itself | Company careers page                         |
-| **Data ownership**      | Job search platform            | Company                                      |
-| **Data format**         | Platform-specific              | Company-specific                             |
-| **Data filters**        | Platform-specific              | Consumer-specific                            |
-| **Publication cost**    | High                           | Free                                         |
-| **Publication process** | Manual                         | Automatic*                                   |
-| **Focus**               | What? (What careers?)          | How? (What's the most handy way to find it?) |
+| Comparison point        | Traditional approach           | Gandi's approach                                                                              |
+|-------------------------|--------------------------------|-----------------------------------------------------------------------------------------------|
+| **Source of truth**     | The job search platform itself | Company careers page                                                                          |
+| **Data ownership**      | Job search platform            | Company                                                                                       |
+| **Data format**         | Platform-specific              | Company-specific                                                                              |
+| **Data filters**        | Platform-specific              | Consumer-specific                                                                             |
+| **Publication cost**    | High                           | Free                                                                                          |
+| **Publication process** | Manual                         | Automatic*                                                                                    |
+| **Focus**               | What? (What careers?)          | How? (What's the most handy way to find it?)                                                  |
 
 ## How does it work?
 
