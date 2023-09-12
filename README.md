@@ -9,7 +9,7 @@ Job search platforms operate more like a _black box_ than a practical tool. Comp
 
 Similarly, job-seekers struggle with rigid search and filter options. Each platform restricts users to its pre-defined categories and keywords, leaving little room for a customised job search experience. In essence, these issues make job searching a daunting task rather than a smooth process.
 
-![img_1.png](img_1.png)
+![img_3.png](img_3.png)
 
 The job search industry is also prohibitively difficult to enter from a startup solutions perspective because **it's rooted in the content problem**. We're sure there are a myriad of alternative approaches to filtering, sorting, personalised search and alerts, but they're all prohibitively difficult to implement for one simple reason: **the lack of an easy way to access corporate careers**.
 
