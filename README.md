@@ -65,8 +65,7 @@ custom data consumer implementations – specific search platforms.
 
 Gandi retrieves company job listings directly from the source. We ensure that the repository's data is directly fetched
 from the companies’ websites, reducing the chance for outdated, misleading or fragmented job offers. This approach also
-allows us to avoid the need for manual content duplication, as the __company's career page is the only source of truth
-__.
+allows us to avoid the need for manual content duplication, as the **company's career page is the only source of truth**.
 
 ### Careers Storage
 
