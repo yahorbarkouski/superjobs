@@ -2,11 +2,13 @@
 
 > Stateful Reverse Proxy for decentralized IT jobs
 
-Gandi shifts the closed-platform job search paradigm to a distributed, transparent and job-seeker driven model, developing
+Gandi shifts the closed-platform job search paradigm to a distributed, transparent and job-seeker driven model,
+developing
 capabilities to create unique job search engines that **share the same source of content** but provide **different
 features** to retrieve and process it.
 
-To put it simply, Gandi can be described as a company's job listings repository, which follows the following main principles:
+To put it simply, Gandi can be described as a company's job listings repository, which follows the following main
+principles:
 
 - **Decentralized** – each company is responsible for its own job listings, that have been published on the company's
   website and pulled by Gandi;
@@ -49,44 +51,70 @@ job, pushed us to the alternative solution space:
    job-seeker preferences as possible.
 
 That's exactly what Gandi is trying to achieve.
+
 ## Approach
 
-To make sure we're on the same page, let's see how it should work in practice:
+To make sure we're on the same page, let's see the Gandi's approach breakdown:
 
 ![img_5.png](img_5.png)
 
-Gandi is deeply anchored around three main layers: pull-based careers retrieval engine, public careers storage, and custom data consumer implementations – specific search platforms.
+Gandi is deeply anchored around three main layers: pull-based careers retrieval engine, public careers storage, and
+custom data consumer implementations – specific search platforms.
 
 ### Retrieval engine
-Gandi retrieves company job listings directly from the source. We ensure that the repository's data is directly fetched from the companies’ websites, reducing the chance for outdated, misleading or fragmented job offers. This approach also allows us to avoid the need for manual content duplication, as the __company's career page is the only source of truth__.
 
-### Public Storage
-All gathered job listings are stored publicly and __can be accessed by everyone, at all times__, right in this repository. By ensuring company job information is as public as possible, we feel this levels the playing field for all job-seekers, and enables maximum reach.
+Gandi retrieves company job listings directly from the source. We ensure that the repository's data is directly fetched
+from the companies’ websites, reducing the chance for outdated, misleading or fragmented job offers. This approach also
+allows us to avoid the need for manual content duplication, as the __company's career page is the only source of truth
+__.
 
+### Careers Storage
+
+All gathered job listings are stored publicly and __can be accessed by everyone, at all times__, right in this
+repository. By ensuring company job information is as public as possible, we feel this levels the playing field for all
+job-seekers, and enables maximum reach.
 
 ### Data Consumers
-That approach won't work without consumers – systems that are able to pull the data from Gandi, implement a custom search engine based on that and fit the target audience – job-seeker needs.
 
-It's crucial to understand that __Gandi is not a search engine itself__, though it's useless in a vacuum. We seek to provide a data source for as many job search platforms as possible, and we're open to any company that wants to join us.
+That approach won't work without consumers – systems that are able to pull the data from Gandi, implement a custom
+search engine based on that and fit the target audience – job-seeker needs.
+
+It's crucial to understand that __Gandi is not a search engine itself__, though it's useless in a vacuum. We seek to
+provide a data source for as many job search platforms as possible, and we're open to any company that wants to join us.
 
 ## How does it work?
+
 The following visualisation should give you a better understanding:
 
 ![img_7.png](img_7.png)
-But there is no better way than to see it in action. Let's take a look at the example of how Gandi works with a company. 
 
-## Non-goals
+Gandi relies on a simple seven-step process (2-steps from the contributor side):
 
-We aim for ease of use, consistency and transparency, but there are certain areas Gandi explicitly does not target:
+1. Company's member creates a Pull Request with a __company's careers urls__, and some basic information about the
+   company itself (if it's not already in the repository, one-time action). To make this process seamless, this
+   repository is filled by helpful ./init script, template and example, that will create a contribution company folder
+   for you;
+2. Gandi Worker automatically prepares a __structural and network verification__ for a given job list, responding with a
+   comment – within a few minutes;
+3. If the verification is successful, Gandi Worker applies a "Verified" tag to the PR, and notifies a repository
+   maintainer about the new content;
+4. Maintainer reviews the PR, and approves it if everything looks good;
+5. Gandi Worker pulls the vacancy content from the given url, and __prepares a commit__ with a new job listing
+   aggregation data in a .json format to the same branch;
+6. Contributor reviews the parsed job listings schema, commits remarks if anything missed, and approves the commit if
+   everything looks good;
+7. Maintainer merges the PR, and Gandi Worker automatically creates a new job listing files in 'data' folder, that can
+   be finally used by consumers.
 
-1. __To provide a strict copy of the company's original job listing__. Gandi consumers shouldn't act like a job
-   application platforms, but rather as unique search engines. We completely accept aggregated information – a result of
-   Gandi AI worker __and Contributor__ efforts – until that information is not violating the company's original job
-   listing and easy to index dynamically.
-2. Monetization of job posts – we don't earn profits from __the data we don't own__.
-3. To compete with existing job search platforms. __Gandi is useless in a vacuum__. Our goal is simple – to provide
-   information. And our information's goal is to be consumed by as many job search platforms as possible, nobody wins in
-   the other case.
+The sync process is even simpler and doesn't require any manual actions from the contributor side: there is a cron job
+that runs every day, verifies the given job listing checksum by url, and creates an automatic PR if anything changed.
+
+A practical example of the contribution can be found [right there](https://google.com).
+
+To deep dive into the process, please refer to the [contribution](CONTRIBUTING.md)
+and [company folder structure](/superjobs/README.md) documentations.
+
+[//]: # (But there is no better way than to see it in action. Let's take a look at the example of how Gandi works with a company. )
 
 ## Drawbacks and limitations
 
@@ -101,19 +129,18 @@ system:
   request form in the issues template and promise to handle such cases ASAP;
 - Gandi accepts English-language job listings only.
 
-[//]: # (## Plans for the Future)
+## Non-goals
 
-[//]: # (Building on our core principles, we aim to:)
+We aim for ease of use, consistency and transparency, but there are certain areas Gandi explicitly does not target:
 
-[//]: # ()
-
-[//]: # (- Develop a sophisticated search feature that uses AI to match candidates with jobs.)
-
-[//]: # (- Extend our reach by adding more companies to our platform.)
-
-[//]: # (- Improve the frequency of our syncing process for up-to-date retrievals.)
-
-[//]: # (- Enhance user experience through continuous improvements based on user feedback.)
+1. __To provide a strict copy of the company's original job listing__. Gandi consumers shouldn't act like a job
+   application platforms, but rather as unique search engines. We completely accept aggregated information – a result of
+   Gandi AI worker __and Contributor__ efforts – until that information is not violating the company's original job
+   listing and easy to index dynamically.
+2. Monetization of job posts – we don't earn profits from __the data we don't own__.
+3. To compete with existing job search platforms. __Gandi is useless in a vacuum__. Our goal is simple – to provide
+   information. And our information's goal is to be consumed by as many job search platforms as possible, nobody wins in
+   the other case.
 
 ## FAQ
 
