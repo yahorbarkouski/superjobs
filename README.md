@@ -1,17 +1,20 @@
 # Gandi
 > Stateful Reverse Proxy for decentralized IT jobs
 
-Gandi shifts the closed job-platform-driven job search paradigm to a distributed, transparent and company-driven model, creating opportunities to create unique job search engines that share the same source of truth but provide different capabilities to retrieve and process it.
+Gandi is shifting the closed-platform job search paradigm to a distributed, transparent and company-driven model, developing capabilities to create unique job search engines that **share the same source of content** but provide **different capabilities** to retrieve and process it
 ## Why?
-Traditional job search tools tend to position themselves as intermediaries, but their approach often fractures the job market. Different job platforms air unique sets of job listings, giving rise to scattered and occasionally out-of-date information. This scattered reality can mislead job-seekers and burden companies that struggle to keep listings updated across varied platforms.
+Traditional job search tools tend to position themselves as intermediaries, but their approach often fragments the job market. Different job platforms publish unique sets of job listings, resulting in scattered and sometimes outdated information. This fragmented reality can mislead job-seekers and burden companies that struggle to keep listings up to date across multiple platforms.
 
-Job search platforms operate more like a _black box_ rather than a handy tool. Companies face _competition_, enormous expenditure on job posting and advertising fees, and limitations on how much information they can convey about their opening.
+Job search platforms operate more like a _black box_ than a practical tool. Companies face _competition_, huge costs for posting and advertising, and restrictions on how much information they can communicate about their vacancy.
 
-Similarly, job-seekers wrestle with the rigid search and filter options. Each platform confines users to its pre-set categories and keywords, leaving little room for a customized job-search experience. In essence, these issues turn job searching into a daunting task rather than a smooth process.
+Similarly, job-seekers struggle with rigid search and filter options. Each platform restricts users to its pre-defined categories and keywords, leaving little room for a customised job search experience. In essence, these issues make job searching a daunting task rather than a smooth process.
 
-At the same time, the job search industry is prohibitively difficult to enter from a startup solutions perspective because **it's rooted in the content problem**. We're sure there are a myriad of alternative approaches for filtering, sorting, personalised search and notifications, but they're all prohibitively difficult to implement for one simple reason: **the lack of a simple way to access company careers**.
+![img_1.png](img_1.png)
 
-But does it have to be this way? The unambiguous hiring goals of the company – to find the best-fit employee, and the job-seeker – to find the best-fit job, pushed us to the obvious solution space:
+The job search industry is also prohibitively difficult to enter from a startup solutions perspective because **it's rooted in the content problem**. We're sure there are a myriad of alternative approaches to filtering, sorting, personalised search and alerts, but they're all prohibitively difficult to implement for one simple reason: **the lack of an easy way to access corporate careers**.
+
+### Does it have to be this way?
+The unambiguous hiring goals of the company – to find the best-fit employee, and the job-seeker – to find the best-fit job, pushed us to the alternative solution space:
 1. Job postings should be **as public as possible** – so that as many job-seekers as possible can find them;
 2. Job platform business model **shouldn't cut off needy companies that cannot afford it**;
 3. The more **personalised job search** and filtering tools that exist, the more candidates will be able to find the right vacancies;
