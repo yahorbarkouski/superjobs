@@ -120,7 +120,7 @@ and [company folder structure](/superjobs/README.md) documentations.
 While we strive to create an alternative way for the job search process, we acknowledge the potential drawbacks of our
 system:
 
-- Companies that have no job listings on their website __won't be able to use Gandi__, as we don't provide any job
+- Companies that have no job listings on their website won't be able to use Gandi, as we don't provide any job
   listing creation tools. At least for now;
 - Some companies might have restrictions on sharing their job adverts outside their platforms, leading to potential
   legal issues. Such remarks seem strange to us, and we keep blindly follow the assumption that it's in the company's
