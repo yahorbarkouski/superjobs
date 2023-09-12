@@ -36,7 +36,7 @@ To make sure we're on the same page, let's try to compare the traditional and al
 We aim for ease of use, consistency and transparency, but there are certain areas Gandi explicitly does not target:
 
 1. __To provide a strict copy of the company's original job listing__. Gandi consumers shouldn't act like a job application platforms, but rather as unique search engines. We completely accept aggregated information – a result of Gandi AI worker __and Contributor__ efforts – until that information is not violating the company's original job listing and easy to index dynamically.
-2. Monetization of job posts – we don't earn profits from the data we don't own.
+2. Monetization of job posts – we don't earn profits from __the data we don't own__.
 3. To compete with existing job search platforms. __Gandi is useless in a vacuum__. Our goal is simple – to provide information. And our information's goal is to be consumed by as many job search platforms as possible, nobody wins in the other case.
 
 ## Contribution
