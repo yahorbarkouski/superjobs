@@ -14,7 +14,7 @@ principles:
   website and pulled by Gandi;
 - **Instant** – a single link to a company's job listing ensures seamless sync with Gandi repository, negating the need
   for manual content duplication;
-- **Opensource** – all job listings are stored publicly and can be used by anyone for any purpose;
+- **Open-source** – all job listings are stored publicly and can be used by anyone for any purpose;
 - **Consistent** – all job listings are synced with the company's website on a daily basis.
 
 ## Why?
@@ -61,7 +61,7 @@ To make sure we're on the same page, let's see the Gandi's approach breakdown:
 Gandi is deeply anchored around three main layers: pull-based careers retrieval engine, public careers storage, and
 custom data consumer implementations – specific search platforms.
 
-### Retrieval engine
+### Retrieval Engine
 
 Gandi retrieves company job listings directly from the source. We ensure that the repository's data is directly fetched
 from the companies’ websites, reducing the chance for outdated, misleading or fragmented job offers. This approach also
@@ -113,8 +113,6 @@ A practical example of the contribution can be found [right there](https://googl
 To deep dive into the process, please refer to the [contribution](CONTRIBUTING.md)
 and [company folder structure](/superjobs/README.md) documentations.
 
-[//]: # (But there is no better way than to see it in action. Let's take a look at the example of how Gandi works with a company. )
-
 ## Drawbacks and limitations
 
 While we strive to create an alternative way for the job search process, we acknowledge the potential drawbacks of our
@@ -141,18 +139,8 @@ We aim for ease of use, consistency and transparency, but there are certain area
    information. And our information's goal is to be consumed by as many job search platforms as possible, nobody wins in
    the other case.
 
-## FAQ
+## Plans for the future
+To be continued...
 
-<details>
-<summary><b>How often is data on Gandi updated?</b></summary>
-Our platforms sync with company websites daily to ensure the most up-to-date job listings.
-</details>
-<details>
-<summary><b>What kind of companies can post job listings?</b></summary>
-Any company, regardless of size or industry, can sync their job listings with Gandi. As of beta launch, we're mostly focusing on startups/mid-size companies, but we're open to any company that wants to join us.
-</details>
-<details>
-<summary><b>Are there any costs associated with using Gandi?</b></summary>
-Gandi is a free platform. We believe job information should be as public as possible, without any barriers.
-</details>
-
+## Maintainer's final words
+To be continued...
