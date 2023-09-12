@@ -7,7 +7,7 @@ Traditional job search tools tend to position themselves as intermediaries, but 
 
 Job search platforms operate more like a _black box_ than a practical tool. Companies face _competition_, huge costs for posting and advertising, and restrictions on how much information they can communicate about their vacancy.
 
-Similarly, job-seekers struggle with rigid search and filter options. Each platform restricts users to its pre-defined categories and keywords, leaving little room for a customised job search experience. In essence, these issues make job searching a daunting task rather than a smooth process.
+Similarly, job-seekers struggle with _rigid search_ and filter options. Each platform restricts users to its pre-defined categories and keywords, leaving little room for a customised job search experience. In essence, these issues make job searching a daunting task rather than a smooth process.
 
 ![img_3.png](img_3.png)
 
@@ -18,7 +18,7 @@ The unambiguous hiring goals of the company – to find the best-fit employee, a
 1. Job postings should be **as public as possible** – so that as many job-seekers as possible can find them;
 2. Job platform business model **shouldn't cut off needy companies that cannot afford it**;
 3. The more **personalised job search** and filtering tools that exist, the more candidates will be able to find the right vacancies;
-4. Innovative job search systems **should answer the "How"** rather than the "What" to cover as many job-seeker preferences as possible.
+4. Innovative job search systems **should answer the "How"** and take the "What" **for granted** to cover as many job-seeker preferences as possible.
 
 ## Approach comparison
 
