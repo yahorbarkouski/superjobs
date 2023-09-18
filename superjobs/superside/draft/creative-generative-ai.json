@@ -1,7 +1,7 @@
 {
   "location" : [ "Remote" ],
   "attendance" : [ "Remote" ],
-  "type" : null,
+  "type" : [ "Full-time" ],
   "experience" : [ "2-4 years" ],
   "salary" : null,
   "tags" : [ "Generative AI", "Branding", "Ad Creative", "Social Creative", "Illustration", "Photographic Assets" ],
