@@ -1,0 +1,22 @@
+{
+    // array of geographical locations, like ["Mountain View, CA", "Brazil", "EU", "LATAM"]
+    "location": ["Worldwide"],
+    // array of attendance types, like ["Remote", "Onsite", "Hybrid"]
+    "attendance": ["Remote"],
+    // array of job types, like ["Full-time", "Internship", "Part-time", "Contract"]
+    "type": null,
+    // array of experience levels, like ["No experience", "1-3 years", "3-5 years", "5-10 years", "10+ years"]
+    "experience": null,
+    // salary object, like {"min": 800000, "max": 1000000, "format": "annually", "currency": "usd"}
+    "salary": null,
+    // array of tags, like ["Backend", "Frontend", "Fullstack", "Mobile", "DevOps", "Data", "Security", "QA", etc.]
+    "tags": ["Site Reliability Engineer","Infrastructure","DevOps","Cloud"],
+    // array of skills, like ["Java", "Python", "PHP", "Spring Framework", "Django", etc.]
+    "skills": ["Infrastructure as code","Kubernetes","Microservices","Monitoring","CICD","Networking","Service Mesh","DevOps"],
+    // one-sentence overview, like "Looking for a software engineer to work on the next generation of Google Search, improving search quality and user experience."
+    "overview": "Superside is looking for a technically sound and determined Lead Site Reliability Engineer. This role requires a unique balance of in-depth technical understanding and excellent communication skills to drive persistent improvements in our infrastructure whilst maximizing its utilization among our engineering teams.",
+    // complete description
+    "description": "Superside is looking for a technically sound and determined Lead Site Reliability Engineer. This role requires a unique balance of in-depth technical understanding and excellent communication skills to drive persistent improvements in our infrastructure whilst maximizing its utilization among our engineering teams. The Lead SRE will be responsible for the development of a world-class SRE team. The primary focus will be on the construction and enhancement of robust infrastructure based on the profound application of DevOps best practices. The team under your leadership will be responsible for streamlining Superside’s infrastructure and optimizing processes for an advanced developer experience.",
+    // array of requirements, like ["Good communication skills", "Team player", "Self-motivated", "etc."]
+    "requirements": ["Experience with modern cloud-based infrastructure","Experience with Infrastructure as code","Working Knowledge of: Kubernetes and microservices","Monitoring and CICD tools","Networking and Service Mesh concepts","Build and packaging tools","Knowledge of SRE and DevOps concepts","Experience mentoring engineers","Experience leading initiatives and projects","Excellent communication skills in English"]
+}
