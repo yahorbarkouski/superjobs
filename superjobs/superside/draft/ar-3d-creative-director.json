@@ -1,0 +1,21 @@
+{
+    "//location_example": ["Mountain View, CA", "Brazil", "EU", "LATAM"],
+    "location": null,
+    "//attendance_example": ["Remote", "Onsite", "Hybrid"],
+    "attendance": ["Remote"],
+    "//type_example": ["Full-time", "Internship", "Part-time", "Contract"],
+    "type": null,
+    "//experience_example": ["No experience", "1-3 years", "3-5 years", "5+ years", "7+ years", "10+ years"],
+    "experience": null,
+    "//salary_example": {"min": 800000, "max": 1000000, "format": "annually", "currency": "usd"},
+    "salary": null,
+    "//tags_example": ["Backend", "Frontend", "Fullstack", "Mobile", "DevOps", "Data", "Security", "QA"],
+    "tags": ["AR","VR","3D Design","Advertising","Marketing"],
+    "//skills_example": ["Java", "Python", "PHP", "Spring Framework", "Django"],
+    "skills": ["Unreal Engine","Unity 3D","Adobe Aero/Substance"],
+    "//overview_example": "Looking for a software engineer to work on the next generation of Google Search, improving search quality and user experience.",
+    "overview": "Superside is looking for an AR/3D Creative Director with a passion for Augmented Reality, Virtual Reality, and 3D Design. You will lead the development of the AR/VR & 3D category, manage a team of creatives, and deliver exceptional client work for brands such as Meta, Amazon, Salesforce, and Red Bull.",
+    "description": "Superside is seeking a multi-faceted Creative Director to lead the AR/VR & 3D category. In this role, you will define the products and services Superside should offer in AR, VR, and 3D design for advertising and marketing. With your deep expertise in immersive production techniques, you will deliver tech-forward, scalable creative solutions for top brands. You will manage a team of specialist creatives, oversee all creative output, and build partnerships with relevant platforms. The ideal candidate has a strong portfolio, knowledge of cutting-edge immersive creative platforms, and a proven track record as a leader in a fast-paced environment.",
+    "//requirements_example": ["Good communication skills", "Team player", "Self-motivated", "etc."],
+    "requirements": ["Degree in Creativity, Communication, Technology, or similar","Tangible proof of designing and upskilling immersive design departments or teams","Deep expertise in 3D design, AR Design, and VR Design","Solid understanding of utilizing cutting-edge immersive creative across digital platforms","Expertise in scalable solutions such as Lens Studio","A solid commercial perspective","Data-driven, structured, and action-oriented","Proven results as a world-class leader in an international top-tier, fast-growing environment","Excellent English verbal and written communication skills","Strong project management skills","Passion for mentoring and training","Ability to work remotely"]
+}
