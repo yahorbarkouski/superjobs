@@ -1,0 +1,21 @@
+{
+    "//location_example": ["Mountain View, CA", "Brazil", "EU", "LATAM"],
+    "location": null,
+    "//attendance_example": ["Remote", "Onsite", "Hybrid"],
+    "attendance": null,
+    "//type_example": ["Full-time", "Internship", "Part-time", "Contract"],
+    "type": ["Full-time"],
+    "//experience_example": ["No experience", "1-3 years", "3-5 years", "5+ years", "7+ years", "10+ years"],
+    "experience": null,
+    "//salary_example": {"min": 800000, "max": 1000000, "format": "annually", "currency": "usd"},
+    "salary": null,
+    "//tags_example": ["Backend", "Frontend", "Fullstack", "Mobile", "DevOps", "Data", "Security", "QA"],
+    "tags": ["Technology","Product","Design"],
+    "//skills_example": ["Java", "Python", "PHP", "Spring Framework", "Django"],
+    "skills": ["modern cloud-based infrastructure","Infrastructure as code","Kubernetes","microservices","Monitoring and CICD tools","Networking and Service","Mesh concepts","Build and packaging tools","SRE and DevOps concepts","mentoring engineers","leading initiatives and projects","Excellent communication skills in English"],
+    "//overview_example": "Looking for a software engineer to work on the next generation of Google Search, improving search quality and user experience.",
+    "overview": "Superside is looking for a technically sound and determined Lead Site Reliability Engineer. This role requires a unique balance of in-depth technical understanding and excellent communication skills to drive persistent improvements in our infrastructure whilst maximizing its utilization among our engineering teams. The Lead SRE will be responsible for the development of a world-class SRE team. The primary focus will be on the construction and enhancement of robust infrastructure based on the profound application of DevOps best practices. The team under your leadership will be responsible for streamlining Superside’s infrastructure and optimizing processes for an advanced developer experience.",
+    "description": "This role requires a unique balance of in-depth technical understanding and excellent communication skills to drive persistent improvements in our infrastructure whilst maximizing its utilization among our engineering teams. The Lead SRE will be responsible for the development of a world-class SRE team. The primary focus will be on the construction and enhancement of robust infrastructure based on the profound application of DevOps best practices. The team under your leadership will be responsible for streamlining Superside’s infrastructure and optimizing processes for an advanced developer experience.",
+    "//requirements_example": ["Good communication skills", "Team player", "Self-motivated", "etc."],
+    "requirements": null
+}
