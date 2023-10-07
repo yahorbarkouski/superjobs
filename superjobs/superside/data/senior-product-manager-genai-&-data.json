@@ -1,0 +1,20 @@
+{
+    "id": 11,
+    "companyId": 2,
+    "title": "Senior Product Manager GenAI & Data",
+    "location": [Ljava.lang.String;@1b1f5012,
+    "type": [Ljava.lang.String;@7add323c,
+    "attendance": [Ljava.lang.String;@4a734c04,
+    "experience": [Ljava.lang.String;@4760f169,
+    "salaryMin": null,
+    "salaryMax": null,
+    "salaryFormat": "null",
+    "salaryCurrency": "null",
+    "salaryBonus": "Unspecified",
+    "tags": [Ljava.lang.String;@261ea657,
+    "skills": [Ljava.lang.String;@35c12c7a,
+    "overview": "We're seeking an enthusiastic and innovative Product Manager to bring to market the integration of Data and Generative AI into our products and processes.",
+    "description": "We're looking for a Senior Product Manager to lead the ideation, development, and launch of new products and services that leverage Data and GenAI to transform our creative process. The role involves owning the new products and services from concept to deployment to post-launch reporting and iterations. The ideal candidate should have 3-5 years of product management experience, preferably in the martech and/or creative tech sectors. They should also have a deep understanding of marketing use cases and experience using a range of martech/adtech tools. Strong leadership skills and exceptional communication skills are essential. The role requires a relentless focus on user experience and the ability to translate customer needs into product features. Familiarity with project management tools such as JIRA, Notion, Asana, and design tools like Figma is preferred. The salary range for this position is not specified.",
+    "requirements": [Ljava.lang.String;@658255aa,
+    "applicationUrl": "https://careers.superside.com/senior-product-manager-genai--data"
+}
